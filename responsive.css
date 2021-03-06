@@ -1,0 +1,283 @@
+html {
+  height: 100% !important;
+}
+body {
+  height: 100% !important;
+}
+header {
+  height: 100% !important;
+}
+.jumbotron {
+  height: 100% !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+* {
+  max-width: 100%;
+}
+.navbar {
+  display: none;
+}
+.about,
+.contact {
+  font-family: "Impact";
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.s-title,
+.se-title,
+.w-title,
+.c-title {
+  margin-top: 100px !important;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+/* ヘッダー */
+header {
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
+}
+.jumbotron {
+  height: 736px;
+}
+.j-h1 {
+  font-weight: bold;
+  color: rgb(253, 102, 1);
+  position: absolute;
+  font-size: 80px;
+  top: 150px;
+  left: 20px;
+  font-size: 50px;
+  width: 350px;
+}
+a span:nth-of-type(1) {
+  top: 520px;
+}
+a span:nth-of-type(2) {
+  top: 530px;
+}
+a span:nth-of-type(3) {
+  top: 540px;
+}
+.scroll {
+  position: relative;
+  padding-top: 0px;
+  top: 500px;
+}
+
+/* 🍔 */
+.ham-logo {
+  color: rgb(253, 102, 1);
+  font-size: 30px;
+  cursor: pointer;
+}
+.ham-li-a {
+  list-style: none;
+  color: rgb(253, 102, 1);
+}
+.hamburger-list {
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  transition: 0.2s;
+  background-color: black;
+  z-index: 1000;
+  width: 200px;
+  opacity: 0.9;
+}
+.open {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 1rem;
+}
+
+input[type="checkbox"]:checked ~ .hamburger-list {
+  left: 0;
+}
+
+input[type="checkbox"]:checked ~ .back {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* 🍔 */
+/* メイン */
+
+.a-title {
+  margin-top: 50px;
+}
+.a-menu {
+  width: 350px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(255, 145, 0);
+}
+/* サービス */
+
+.se-menu {
+  margin-top: 20px;
+}
+.col-sm-7 {
+  padding: 0px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  margin-left: 15px;
+}
+.col-sm-5 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.se-h3 {
+  margin-top: 50px;
+}
+.se-p {
+  margin-top: 20px;
+}
+.se-img1,
+.se-img2,
+.se-img3 {
+  height: 300px !important;
+  margin-left: 40px;
+  width: 85%;
+}
+.se-menu2 {
+  display: flex;
+}
+.res-col-sm-5 {
+  order: 2;
+}
+.res-col-sm-7 {
+  order: 1;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px;
+}
+.res-col-sm-7-2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 200px;
+}
+/* スキル */
+
+.skill {
+  margin-top: 400px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  background: black;
+}
+.s-menu,
+.s-second {
+  padding-left: 30px !important;
+}
+/* ワークス */
+
+.w-menu {
+  padding-left: 15px !important;
+}
+.w-menu-2 {
+  margin-top: 0px;
+  padding-right: 0px;
+  padding-left: 15px !important;
+}
+.col-sm-4 {
+  margin-bottom: 10px;
+  padding-right: 0px !important;
+  width: 90%;
+  margin-left: 15px;
+}
+
+.w-card-img {
+  width: 85%;
+}
+/* コンタクト */
+
+.c-menu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px !important;
+  color: white;
+  padding-left: 30px;
+}
+.c-f3,
+.c-f4,
+.c-f5 {
+  width: 400px;
+}
+
+.col {
+  padding-right: 0px;
+}
+#input-firstname {
+  margin-left: 55px;
+  width: 95px;
+}
+#input-lastname {
+  width: 95px;
+  margin-left: 30px;
+}
+#f-call {
+  width: 110px !important;
+}
+#inputcall {
+  margin-left: 20px;
+  width: 220px;
+}
+#f-address {
+  width: 130px !important;
+}
+#inputAddress {
+  margin-left: 0px;
+  width: 220px;
+}
+#f-contact {
+  width: 120px;
+}
+#inputcontact {
+  width: 220px;
+  height: 200px;
+  margin-left: 10px;
+}
+.btn-primary {
+  width: 100px;
+  position: relative;
+  top: 10px;
+  left: 130px;
+}
+
+.c-f1,.form-group {
+  margin-left: 15px;
+}
+/* トップに戻るボタン */
+
+#page-top {
+  display: none;
+}
+
+#page-top a {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+#page-top a::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0aa";
+  font-size: 40px;
+  color: rgb(245, 123, 9);
+}
